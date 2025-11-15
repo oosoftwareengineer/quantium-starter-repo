@@ -33,7 +33,7 @@ def load_csv_content(search_criteria):
 	df_list.clear()
 	print(merge_df)
 
-	merge_df.to_csv(data_path / 'sales_data.csv')
+	merge_df.to_csv(data_path / 'sales_data.csv', index = False)
 
 
 if __name__ == "__main__":
